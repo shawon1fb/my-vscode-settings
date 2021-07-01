@@ -1,55 +1,65 @@
-{
-  // "tabnine.experimentalAutoImports": true,
-  // config related to code formatting
-  // "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "editor.fontFamily": "  'Maven Pro', 'Kiwi Maru Medium'  ,'Courgette' , 'Merienda' ",
-  "editor.fontLigatures": true,
-  "[javascript]": {
+    {
+
+    // "tabnine.experimentalAutoImports": true,
+
+    // config related to code formatting
+
+    // "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+    "editor.formatOnSave": true,
+    "editor.fontFamily": " 'Maven Pro', 'Kiwi Maru Medium' ,'Courgette' , 'Merienda' ",
+    "editor.fontLigatures": true,
+    "[javascript]": {
     "editor.formatOnSave": true,
     // "editor.defaultFormatter": null
-  },
-  "editor.codeActionsOnSave": {
+        },
+
+    "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.organizeImports": true
-  },
-  "eslint.alwaysShowStatus": true,
-  "eslint.validate": [
+        },
+
+    "eslint.alwaysShowStatus": true,
+    "eslint.validate": [
     "javascript"
-  ],
-  "eslint.format.enable": true,
-  "workbench.iconTheme": "vscode-icons",
-  "editor.fontSize": 18,
-  "code-runner.runInTerminal": true,
-  ///go lang 
-  //"editor.codeActionsOnSave": null,
-  "go.testOnSave": true,
-  "go.lintOnSave": "package",
-  "go.formatTool": "goimports",
-  "go.testFlags": [
+        ],
+
+    "eslint.format.enable": true,
+
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontSize": 18,
+    "code-runner.runInTerminal": true,
+    ///go lang
+    //"editor.codeActionsOnSave": null,
+    "go.testOnSave": true,
+    "go.lintOnSave": "package",
+    "go.formatTool": "goimports",
+    "go.testFlags": [
     "-v"
-  ],
-  "go.autocompleteUnimportedPackages": true,
-  "[go]": {
+      ],
+    "go.autocompleteUnimportedPackages": true,
+    "[go]": {
     "editor.defaultFormatter": "golang.go",
     "editor.insertSpaces": false,
     "editor.formatOnSave": false,
     "editor.codeActionsOnSave": {
-      "source.organizeImports": true
-    },
-    //   "editor.suggest.snippetsPreventQuickSuggestions": true
-  },
-  "gopls": {
+    "source.organizeImports": true
+        },
+      // "editor.suggest.snippetsPreventQuickSuggestions": true
+        },
+
+      "gopls": {
     "formatting.gofumpt": true
-  },
-  "terminal.integrated.automationShell.windows": "C:\\Program Files\\Git\\bin",
-  "[jsonc]": {
+        },
+    "terminal.integrated.automationShell.windows": "C:\\Program Files\\Git\\bin",
+    "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "workbench.editor.enablePreview": false,
-  ///terminal
-  "terminal.integrated.fontFamily": "Fira Code",
-  "workbench.colorCustomizations": {
+        },
+    "workbench.editor.enablePreview": false,
+
+    ///terminal
+    "terminal.integrated.fontFamily": "Fira Code",
+    "workbench.colorCustomizations": {
     "terminal.background": "#1D2021",
     "terminal.foreground": "#A89984",
     "terminalCursor.background": "#A89984",
@@ -72,13 +82,13 @@
     "terminal.ansiYellow": "#FAC03B",
     "terminal.border": "#ff0000",
     "textLink.activeForeground": "#14012e"
-  },
-  "mssql.connections": [
+        },
+    "mssql.connections": [
     {
-      "server": "{{put-server-name-here}}",
-      "database": "{{put-database-name-here}}",
-      "user": "{{put-username-here}}",
-      "password": "{{put-password-here}}"
+        "server": "{{put-server-name-here}}",
+        "database": "{{put-database-name-here}}",
+        "user": "{{put-username-here}}",
+        "password": "{{put-password-here}}"
     }
-  ]
-}
+        ]
+    }
